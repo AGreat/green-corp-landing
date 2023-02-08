@@ -5,10 +5,14 @@ body {
 }
  
 header {
+  position: sticky;
+  top: 0;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  z-index: 1;
 }
  
 .header__logo {
@@ -45,6 +49,7 @@ button {
   width: 100px;
   height: 100px;
   animation: rotation 10s infinite linear;
+  position: absolute;
 }
 
 .about {
