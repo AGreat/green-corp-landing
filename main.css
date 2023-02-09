@@ -44,6 +44,7 @@ button {
 .about__sun-image {
   width: 100px;
   height: 100px;
+  animation: rotation 10s infinite linear;
 }
 
 .about {
@@ -194,4 +195,14 @@ footer{
   display: flex;
   flex-direction: column;
   padding-bottom: 15px;
+}
+
+@keyframes rotation {
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
 }
