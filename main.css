@@ -210,7 +210,6 @@ footer{
   100%{
     transform: rotate(360deg);
   }
-<<<<<<< HEAD
 }
 
 /* Планшеты */
@@ -282,6 +281,4 @@ footer{
   .footer__container {
       flex-direction: column;
   }
-=======
->>>>>>> 136a769860acfcc637c3bafc940b9f8bcf74d708
 }
